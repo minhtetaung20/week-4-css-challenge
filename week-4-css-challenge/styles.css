@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    color: white;
+}
+.name {
+    font-size: 24px;
+}
+nav {
+    background-color: #008080;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+}
+.nav-items {
+    display: flex;
+}
+nav li {
+    justify-content: space-between;
+    list-style: none;
+    font-size: 16px;
+    margin: 14px;
+    margin: 0px 88px 0px 0px;
+}
+ul button {
+    color: white;
+    border: none;
+    background-color: #008080;
+}
+button:hover {
+    cursor: pointer;
+}
+.practise {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.practise image {
+    width: 100px;
+}
+.about-me {
+    color: black;
+    margin: 16px 206px 0px 0px;
+}
+.about-me p {
+    text-align: center;
+}
+button {
+    border: none;
+    background-color: #008080;
+    color: white;
+    padding: 12px 24px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #0fc5c5;
+}
+.modal {
+    padding: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 260px;
+    margin-top: 120px;
+    text-align: center;
+}
+.modal::backdrop {
+    background-color: #ccc;
+    opacity: 0.4;
+}
